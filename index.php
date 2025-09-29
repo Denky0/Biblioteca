@@ -18,13 +18,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php?tela=livro">🕮Cadastrar Livros</a>
+                        <a class="nav-link" aria-current="page" href="index.php?tela=livro">🕮 Cadastrar Livros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?tela=aluno">👤Cadastrar Alunos</a>
+                        <a class="nav-link" href="index.php?tela=aluno">👤 Cadastrar Alunos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?tela=emprestimo">⇆Realizar Emprestimo</a>
+                        <a class="nav-link" href="index.php?tela=emprestimo">⇆ Realizar Emprestimo</a>
                     </li>
                 </ul>
             </div>
@@ -50,11 +50,9 @@
             default:
                 include('listarLivros.php');
                 break;
-        }
-
+            }
         ?>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
 </html>
