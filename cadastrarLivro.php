@@ -1,11 +1,14 @@
 <h1>Cadastrar Livro</h1>
 <form action="inserirLivro.php">
     <div class="row">
-        <div class="col-4">
+        <div class="col-2">
             <input type="text" class="form-control mb-2" name="titulo" placeholder="Digite o Título" id="">
         </div>
         <div class="col-2">
             <input type="number" class="form-control mb-2" name="isbn" placeholder="Digite o ISBN" id="">
+        </div>
+        <div class="col-2">
+            <input type="text" class="form-control mb-2" name="autor" placeholder="Digite o Autor" id="">
         </div>
         <div class="col-2">
             <input type="text" class="form-control mb-2" name="editora" placeholder="Digite a Editora" id="">

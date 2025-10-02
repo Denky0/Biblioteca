@@ -16,8 +16,8 @@
     echo "<br>";
     echo $email;
 
-    $inserir = "INSERT INTO alunos VALUES('$matricula', '$turma', '$nome', '$email')";
+    $insert = "INSERT INTO alunos VALUES('$matricula', '$turma', '$nome', '$email')";
 
-    $conexao->query($inserir);
+    $conexao->query($insert);
 
 ?>
